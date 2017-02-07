@@ -35,12 +35,37 @@ How to setup Arduino support for Sparkfun thing Dev
 Kalam is powered by the Sparkfun's board support file.The first thing you will need to do is to download the latest release of the Arduino IDE. You will need to be using version 1.6.4 or higher. 
 After you have downloaded and installed v1.6.4, you will need to start the IDE and navigate to the Preferences menu.
 Sparkfun's  JSON url for ESP8266 board is - https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+
 ![Json](/docs/images/json.jpg)
 
 * Click Ok to close and save the preferences
 * Then click Tools > Board > Board Manager
-* You should find Sparkfun AVR boards listed in the Board Manager window.
-  ![board_manager](/docs/images/boardmanager.png)
+* You should find Sparkfun ESP8266 boards listed in the Board Manager window.
+
+ ![board_manager](/docs/images/boardmanager.png)
+ 
+*	Press the “Install” button on the chosen ESP8266 category.The download process will begin
+* Reboot Arduino and look under Tools > Boards and you should see the addition of the Sparkfun boards in your board list.
+![board](/docs/images/board.png)
+
+Getting Started with ThingSpeak
+-------------------------------
+The Internet of Things (IoT) provides access to a broad range of embedded devices and web services. ThingSpeak is an IoT platform that enables you to collect, store, analyze, visualize, and act on data from sensors or actuators.The primary element of ThingSpeak activity is the channel, which contains data fields, location fields, and a status field. After you create a ThingSpeak channel, you can write data to the channel, process and view the data  and react to the data.
+
+Setup ThingSpeak
+----------------
+ThingSpeak requires a user account and a channel. A channel is where you send data and where ThingSpeak stores data. Each channel has up to 8 data fields, location fields, and a status field. You can send data every 15 seconds to ThingSpeak.
+
+* Sign up for new User Account – https://thingspeak.com/users/sign_up
+
+![signup](/docs/images/signup.jpg)
+
+* Create a new Channel by selecting Channels, My Channels, and then New Channel
+
+![newchannel](/docs/images/creating channel.JPG)
+
+
+ 
 
 License Information
 -------------------
