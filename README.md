@@ -28,7 +28,19 @@ Board Overview
 
 Getting Started with Kalam
 --------------------------
+Connect the GPIO expaner cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
 
+How to setup Arduino support for Sparkfun thing Dev
+---------------------------------------------------
+Kalam is powered by the Sparkfun's board support file.The first thing you will need to do is to download the latest release of the Arduino IDE. You will need to be using version 1.6.4 or higher. 
+After you have downloaded and installed v1.6.4, you will need to start the IDE and navigate to the Preferences menu.
+Sparkfun's  JSON url for ESP8266 board is - https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+![Json](/docs/images/json.jpg)
+
+* Click Ok to close and save the preferences
+* Then click Tools > Board > Board Manager
+* You should find Sparkfun AVR boards listed in the Board Manager window.
+  ![board_manager](/docs/images/boardmanager.png)
 
 License Information
 -------------------
