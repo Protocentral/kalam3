@@ -66,7 +66,7 @@ ThingSpeak requires a user account and a channel. A channel is where you send da
 
 You can change the name to fit your need and you can add a description corresponding to the channel. You can add any other useful description into the metadata field. In the same page, you should see the fields for Latitude, Longitude and Elevation. Also, you can make the channel as "Private" or "Public".
 
-![channel](/docs/images/channel.jpg)
+![channel](/docs/images/channel.JPG)
 
 Once you have edited the fields, click on ‘Save Channel’ button.
 
@@ -79,9 +79,9 @@ We have provided a few Arduino sketch examples . They are designed to work right
 const char* tokenid = "OFZEOKCL95S8HRNI"
 
   ```
-Send an Analog Voltage to ThingSpeak
-
-The WriteVoltage.ino Arduino sketch reads an analog voltage from pin 0, and writes it to a channel on ThingSpeak every 20 seconds. Load the example in the Arduino IDE. Make sure to select the correct Arduino board and COM port. Then, upload the code to your Arduino.
+Running a sketch
+-----------------------------------
+Load the example in the Arduino IDE. Make sure to select the board as "Sparkfun ESP8266 Thing Dev"  and COM port. Then, upload the code to your Kalam.
 
 License Information
 -------------------
