@@ -30,7 +30,7 @@ Getting Started with Kalam
 --------------------------
 Connect the GPIO expaner cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
 
-How to setup Arduino support for Sparkfun thing Dev
+How to setup Arduino support for Kalam (using Sparkfun thing Dev)
 ---------------------------------------------------
 Kalam is powered by the Sparkfun's board support file.The first thing you will need to do is to download the latest release of the Arduino IDE. You will need to be using version 1.6.4 or higher. 
 After you have downloaded and installed v1.6.4, you will need to start the IDE and navigate to the Preferences menu.
@@ -64,9 +64,11 @@ ThingSpeak requires a user account and a channel. A channel is where you send da
 
 ![newchannel](/docs/images/creating channel.JPG)
 
+You can change the name to fit your need and you can add a description corresponding to the channel. You can add any other useful description into the metadata field. In the same page, you should see the fields for Latitude, Longitude and Elevation. Also, you can make the channel as "Private" or "Public".
 
- 
+![channel](/docs/images/channel.jpg)
 
+Once you have edited the fields, click on ‘Save Channel’ button.
 License Information
 -------------------
 This product is open source!
