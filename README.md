@@ -69,6 +69,20 @@ You can change the name to fit your need and you can add a description correspon
 ![channel](/docs/images/channel.jpg)
 
 Once you have edited the fields, click on ‘Save Channel’ button.
+
+Setup Arduino Sketch
+--------------------
+
+We have provided a few Arduino sketch examples . They are designed to work right away with no changes.  To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
+
+  ```
+const char* tokenid = "OFZEOKCL95S8HRNI"
+
+  ```
+Send an Analog Voltage to ThingSpeak
+
+The WriteVoltage.ino Arduino sketch reads an analog voltage from pin 0, and writes it to a channel on ThingSpeak every 20 seconds. Load the example in the Arduino IDE. Make sure to select the correct Arduino board and COM port. Then, upload the code to your Arduino.
+
 License Information
 -------------------
 This product is open source!
