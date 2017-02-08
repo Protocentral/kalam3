@@ -28,7 +28,7 @@ Board Overview
 
 Getting Started with Kalam
 --------------------------
-Connect the GPIO expaner cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
+Connect the GPIO expander cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
 
 How to setup Arduino support for Kalam (using Sparkfun thing Dev)
 ---------------------------------------------------
