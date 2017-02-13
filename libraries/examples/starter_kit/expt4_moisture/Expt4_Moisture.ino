@@ -4,12 +4,12 @@
 //LDR Pin
 #define MIOSTURE_PIN A0    
 
-const char* ssid     = "circuitects";  // 
+const char* ssid     = "circuitectshome";  // 
 const char* password = "open1234";
 
 const char* host = "184.106.153.149"; //thingspeak server
 String GET = "GET /update?key=";//QCB1BEGJSVX0F65W&field1=232\r\n"; // GET /update?key=APIkey&field1=
-const char* tokenid = "QCB1BEGJSVX0F65W";
+const char* tokenid = "P9CGBL3X4RY0TRXA";
 int sensorValue = 0; // variable to store the value coming from the sensor
 
 void setup() {
