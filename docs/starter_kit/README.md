@@ -1,5 +1,16 @@
 # ProtoCentral Kalam v3 IOT platform - Starter Kit
+------------------
+This kit includes all the basic components required to get your Kalam-based IoT project up and running.
 
+![Kalam Starter Kit](images/kalam_starterkit.jpg)
+
+# Kit Contents:
+
+* 1x Kalam v3 IoT board
+* 1x GPIO cap for Kalam v3 platform
+* 1x 3.7V, 1200 mAH Li-Poly battery (only for orders within India)
+* 1x micro-USB cable
+* 1x breakaway header-20 pins
 
 # Putting it together
 
