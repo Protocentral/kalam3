@@ -119,7 +119,7 @@ const char* password = "*********";  // passcode
 To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
 Token ID:
 ```
-const char* tokenid = "OFZEOKCL95S8HRNI";
+const char* tokenid = "OFZEOKCL95S8HRNI"; // your channel token id
 
 ```
 
