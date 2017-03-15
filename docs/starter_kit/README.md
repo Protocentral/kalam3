@@ -96,27 +96,33 @@ Once you have edited the fields, click on ‘Save Channel’ button.
 * Step3: Your system has to automaticlly install the FTDI drivers and it shows up as a vertual COM port.  You can go to the Windows     Device Manager and look under Ports(COM & LPT) to find out the COM port number for the installed device.
 
 ![device driver](images/devicedriver.JPG)
+
 ###Note:If you've never used an FTDI device, you may need to install drivers on your computer before you can program the Kalam.For installation please checkout this tutorials from Sparkfun -- https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/windows---quick-and-easy
  
  Blink
  ------
 We have provided a few Arduino sketch examples . They are designed to work right away with no changes. 
 This example shows the simplest thing you can do with an Kalam to see physical output: it blinks the on-board LED.
-Open the Arduino IDE, load the example skecth provided example --> basicBlink. Select the board as "Sparkfun ESP8266 Thing Dev"
-Upload the skecth, now you can see the 
-
+Open the Arduino IDE, load the example skecth provided example --> basicBlink. Make sure to select the board as "Sparkfun ESP8266 Thing Dev"  and COM port. Then, upload the code to your Kalam., now on board LED will blink for every one second.
+define the PIN number:
+```sh
+#define LED_PIN   5  
+```
+Simple Thingspeak Post
+------------------------
+This exampleconnects to the internet via your local wireless Router and updates the data on to the thingspeak channel. You ned 
+Configure Wifi network:
+```sh
+const char* ssid     = "********";  // your network id
+const char* password = "*********";  // passcode
+```
 To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
+Token ID:
+```
+const char* tokenid = "OFZEOKCL95S8HRNI";
 
+```
 
-
-
-  ```
-const char* tokenid = "OFZEOKCL95S8HRNI"
-
-  ```
-Running a sketch
-----------------
-Load the example in the Arduino IDE. Make sure to select the board as "Sparkfun ESP8266 Thing Dev"  and COM port. Then, upload the code to your Kalam.
 
 License Information
 -------------------
