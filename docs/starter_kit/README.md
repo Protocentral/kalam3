@@ -91,11 +91,11 @@ Once you have edited the fields, click on ‘Save Channel’ button.
 
 How to Start
 ------------
-Step1: Plug-in the Kalam to the Computer throughthe micro-USB cable provided.
-Step2: Kalam board got a on board FT231 which is a USB to UART bridge for the uploading the sketch
-Step3: Your system has to automaticlly install the FTDI drivers and it shows up as a vertual COM port.  You can go to the Windows     Device Manager and look under Ports(COM & LPT) to find out the COM port number for the installed device.
-Note:If you've never used an FTDI device, you may need to install drivers on your computer before you can program the Kalam.For installation please checkout this tutorials from Sparkfun -- https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/windows---quick-and-easy
-Step4: 
+*Step1: Plug-in the Kalam to the Computer throughthe micro-USB cable provided.
+*Step2: Kalam board got a on board FT231 which is a USB to UART bridge for the uploading the sketch
+*Step3: Your system has to automaticlly install the FTDI drivers and it shows up as a vertual COM port.  You can go to the Windows     Device Manager and look under Ports(COM & LPT) to find out the COM port number for the installed device.
+*Note:If you've never used an FTDI device, you may need to install drivers on your computer before you can program the Kalam.For installation please checkout this tutorials from Sparkfun -- https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/windows---quick-and-easy
+*Step4: 
 
 We have provided a few Arduino sketch examples . They are designed to work right away with no changes.  To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
 
