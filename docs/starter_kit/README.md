@@ -94,16 +94,21 @@ Once you have edited the fields, click on ‘Save Channel’ button.
 * Step1: Plug-in the Kalam to the Computer throughthe micro-USB cable provided.
 * Step2: Kalam board got a on board FT231 which is a USB to UART bridge for the uploading the sketch
 * Step3: Your system has to automaticlly install the FTDI drivers and it shows up as a vertual COM port.  You can go to the Windows     Device Manager and look under Ports(COM & LPT) to find out the COM port number for the installed device.
+
+![channel](images/devicedriver.JPG)
 ###Note:If you've never used an FTDI device, you may need to install drivers on your computer before you can program the Kalam.For installation please checkout this tutorials from Sparkfun -- https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/windows---quick-and-easy
  
+ Blink
+ ------
+We have provided a few Arduino sketch examples . They are designed to work right away with no changes. 
+This example shows the simplest thing you can do with an Kalam to see physical output: it blinks the on-board LED.
+Open the Arduino IDE, load the example skecth provided example --> basicBlink. Select the board as "Sparkfun ESP8266 Thing Dev"
+Upload the skecth, now you can see the 
+
+To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
 
 
-Open the Arduino IDE, load the example skecth provided
-Upload the Blink:
 
-
-
-We have provided a few Arduino sketch examples . They are designed to work right away with no changes.  To make the examples work with your ThingSpeak channel, you will need to configure the myChannelNumber and myWriteAPIKey variables.
 
   ```
 const char* tokenid = "OFZEOKCL95S8HRNI"
