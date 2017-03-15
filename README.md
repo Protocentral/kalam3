@@ -4,7 +4,7 @@ ProtoCentral Kalam v3 is our newest IOT platform based on the ESP8266 Wi-Fi SoC.
 
 IoT is now made easy with quick plug-and-play functionality in both hardware and software. Based on the popular ESP8266 Wi-Fi SoC from Espressif, this board contains everything required, right out of the box.
 
-![Kalam v3](/docs/images/protocentral-kalam-v3.jpg)
+![Kalam v3](docs/images/protocentral-kalam-v3.jpg)
 
 Features
 --------
@@ -24,10 +24,16 @@ Repository Contents
 
 Board Overview
 --------------
-![Kalam labelled](/docs/images/kalam-labelled.jpg)
+![Kalam labelled](docs/images/kalam-labelled.jpg)
+
+
+Kalam Starter Kit
+---------
+[Kalam Starter Kit Documentation](docs/starter_kit/README.md)
 
 Getting Started with Kalam
 --------------------------
+
 Connect the GPIO expander cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
 
 How to setup Arduino support for Kalam (using Sparkfun thing Dev)
@@ -36,17 +42,17 @@ Kalam is powered by the Sparkfun's board support file.The first thing you will n
 After you have downloaded and installed v1.6.4, you will need to start the IDE and navigate to the Preferences menu.
 Sparkfun's  JSON url for ESP8266 board is - https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
 
-![Json](/docs/images/json.jpg)
+![Json](docs/images/json.jpg)
 
 * Click Ok to close and save the preferences
 * Then click Tools > Board > Board Manager
 * You should find Sparkfun ESP8266 boards listed in the Board Manager window.
 
- ![board_manager](/docs/images/boardmanager.png)
+ ![board_manager](docs/images/boardmanager.png)
  
 *	Press the “Install” button on the chosen ESP8266 category.The download process will begin
 * Reboot Arduino and look under Tools > Boards and you should see the addition of the Sparkfun boards in your board list.
-![board](/docs/images/board.png)
+![board](docs/images/board.png)
 
 Getting Started with ThingSpeak
 -------------------------------
@@ -58,7 +64,7 @@ ThingSpeak requires a user account and a channel. A channel is where you send da
 
 * Sign up for new User Account – https://thingspeak.com/users/sign_up
 
-![signup](/docs/images/signup.jpg)
+![signup](docs/images/signup.jpg)
 
 * Create a new Channel by selecting Channels, My Channels, and then New Channel
 
@@ -66,7 +72,7 @@ ThingSpeak requires a user account and a channel. A channel is where you send da
 
 You can change the name to fit your need and you can add a description corresponding to the channel. You can add any other useful description into the metadata field. In the same page, you should see the fields for Latitude, Longitude and Elevation. Also, you can make the channel as "Private" or "Public".
 
-![channel](/docs/images/channel.JPG)
+![channel](docs/images/channel.JPG)
 
 Once you have edited the fields, click on ‘Save Channel’ button.
 
